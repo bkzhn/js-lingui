@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@lingui/babel-plugin-extract-messages should extract Plural messages from JSX files when there's no Trans tag (integration) 1`] = `
+Object {
+  {count, plural, one {# book} other {# books}}: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        jsx-without-trans.js,
+        3,
+      ],
+    ],
+  },
+}
+`;
+
+exports[`@lingui/babel-plugin-extract-messages should extract all messages from JS files (macros) 1`] = `
+Object {
+  Backtick: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        24,
+      ],
+    ],
+  },
+  Description: Object {
+    extractedComments: Array [
+      description,
+    ],
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        7,
+      ],
+    ],
+  },
+  ID: Object {
+    extractedComments: Array [],
+    message: Message with id,
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        12,
+      ],
+    ],
+  },
+  ID Some: Object {
+    extractedComments: Array [],
+    message: Message with id some,
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        19,
+      ],
+    ],
+  },
+  Message: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        3,
+      ],
+      Array [
+        js-with-macros.js,
+        5,
+      ],
+    ],
+  },
+  Values {param}: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        js-with-macros.js,
+        17,
+      ],
+    ],
+  },
+}
+`;
+
+exports[`@lingui/babel-plugin-extract-messages should extract all messages from JS files 1`] = `
+Object {
+  Description: Object {
+    extractedComments: Array [
+      description,
+    ],
+    origin: Array [
+      Array [
+        js-without-macros.js,
+        5,
+      ],
+    ],
+  },
+  ID: Object {
+    extractedComments: Array [],
+    message: Message with id,
+    origin: Array [
+      Array [
+        js-without-macros.js,
+        7,
+      ],
+    ],
+  },
+  Message: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        js-without-macros.js,
+        3,
+      ],
+    ],
+  },
+  Values {param}: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        js-without-macros.js,
+        9,
+      ],
+    ],
+  },
+}
+`;
+
+exports[`@lingui/babel-plugin-extract-messages should extract all messages from JSX files (macros) 1`] = `
+Object {
+  Hi, my name is {name}: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        jsx-with-macros.js,
+        3,
+      ],
+    ],
+  },
+  Title: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        jsx-with-macros.js,
+        4,
+      ],
+    ],
+  },
+  {count, plural, one {# book} other {# books}}: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        jsx-with-macros.js,
+        6,
+      ],
+    ],
+  },
+}
+`;
+
+exports[`@lingui/babel-plugin-extract-messages should extract all messages from JSX files 1`] = `
+Object {
+  Hi, my name is <0>{name}</0>: Object {
+    extractedComments: Array [],
+    origin: Array [
+      Array [
+        jsx-without-macros.js,
+        9,
+      ],
+    ],
+  },
+  msg.default: Object {
+    extractedComments: Array [],
+    message: Hello World,
+    origin: Array [
+      Array [
+        jsx-without-macros.js,
+        7,
+      ],
+      Array [
+        jsx-without-macros.js,
+        8,
+      ],
+    ],
+  },
+  msg.hello: Object {
+    extractedComments: Array [
+      Description,
+    ],
+    origin: Array [
+      Array [
+        jsx-without-macros.js,
+        6,
+      ],
+    ],
+  },
+}
+`;

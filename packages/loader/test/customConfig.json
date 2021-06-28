@@ -1,0 +1,9 @@
+{
+  "locales": ["en"],
+  "catalogs": [
+    {
+      "path": "locale/{locale}/messages"
+    }
+  ],
+  "compileNamespace": "window.really_long_namespace"
+}
